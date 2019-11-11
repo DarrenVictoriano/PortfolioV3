@@ -420,6 +420,12 @@ main#home h1 {
     margin-top: 10vh;
     font-size: 3.5rem;
   }
+  main#about h1 {
+    font-size: 3.5rem;
+  }
+  main#work h1 {
+    font-size: 3.5rem;
+  }
   .projects {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
