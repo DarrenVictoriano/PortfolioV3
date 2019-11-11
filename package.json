@@ -1,0 +1,24 @@
+{
+  "name": "portfoliov3",
+  "version": "1.0.0",
+  "description": "responsive portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarrenVictoriano/PortfolioV3.git"
+  },
+  "author": "Darren Victoriano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DarrenVictoriano/PortfolioV3/issues"
+  },
+  "homepage": "https://darrenvictoriano.github.io/PortfolioV3",
+  "dependencies": {
+    "gh-pages": "^2.1.1",
+    "node-sass": "^4.13.0"
+  }
+}
