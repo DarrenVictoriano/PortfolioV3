@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/DarrenVictoriano/PortfolioV3/issues"
   },
-  "homepage": "https://darrenvictoriano.github.io/PortfolioV3",
+  "homepage": "https://darrenvictoriano.com",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "node-sass": "^4.13.0"

@@ -224,7 +224,6 @@ header {
 
 main {
   padding: 4rem;
-  min-height: calc(100vh - 60px);
 }
 
 main .icons {
@@ -243,10 +242,15 @@ main .icons a:hover {
 
 main#home {
   overflow: hidden;
+  height: 100%;
 }
 
 main#home h1 {
   margin-top: 20vh;
+}
+
+main#work, main#about {
+  min-height: calc(100vh - 60px);
 }
 
 .about-info {
