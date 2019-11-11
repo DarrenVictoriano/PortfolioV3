@@ -41,7 +41,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    opacity: 0.9;
+    // opacity: 0.9; removed this cuz my protrait gets transparent
     visibility: hidden;
 
     &.show {
@@ -61,6 +61,7 @@
     }
 
     &-nav {
+        opacity: 0.9; // moved opacity here for now
         margin: 0;
         padding: 0;
         background: darken($primary-color, 5);
