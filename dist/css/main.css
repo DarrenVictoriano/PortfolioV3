@@ -100,10 +100,8 @@
 .menu-branding .portrait {
   width: 250px;
   height: 250px;
-  background: url(../images/mini_me_black.jpg);
+  background: url(../images/Memoji-Web.png);
   background-size: cover;
-  -webkit-transform: rotate(25deg);
-          transform: rotate(25deg);
   border-radius: 50%;
   border: solid 3px #eece1a;
 }
@@ -269,8 +267,6 @@ main#work, main#about {
   grid-area: bioimage;
   width: 250px;
   height: 250px;
-  -webkit-transform: rotate(25deg);
-          transform: rotate(25deg);
   margin: auto;
   border-radius: 50%;
   border: #eece1a 3px solid;
